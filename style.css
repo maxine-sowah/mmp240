@@ -1,0 +1,35 @@
+.container{
+    max-width: 1140px;
+    padding: 32px;
+    padding-top: 16px;
+    margin:32px;
+}
+
+.orange-color{
+    color:orange;
+}
+
+.fluid-image{
+    width:100%;
+}
+
+p{
+    margin-top: lem;
+    margin-bottom: lem;
+}
+
+h3{
+    margin-top: lem;
+}
+
+nav{
+    background-color: teal;
+
+}
+
+.main-menu li{
+    display: inline;
+    padding: 0.75em;
+    padding-left: lem;
+    margin-top: lem;
+}
