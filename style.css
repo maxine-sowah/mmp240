@@ -1,7 +1,14 @@
-#container{
-    
-    display: flex;
+
+.main-menu ul{
+  padding: 10px ;
+  border: 1px solid green ;
+}
+
+a.hover{
+    color:navajowhite;
+}
+
+nav{
     float: right;
-    
-    
+    width:30%;
 }
