@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    font-family: 'Anton';
+    background-color: floralwhite;
+}
+
+
+.container{
+    padding:1em;
+    max-width: 1140px;
+}
+
+a{
+    color:#186898;
+}
+
+a:hover{
+    color:#bc477b;
+}
+
+a:active{
+    color:floralwhite;
+}
+
+.fluid-image{
+    width:100%;
+}
+
+p{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+h3{
+    margin-top:1em;
+}
+
+
+header{
+    width:60%;
+    float:left;
+}
+
+nav{
+    width: 30%;
+    float:right;
+}
+
+h1 img{
+    width:100%;
+}
+
+header h2{
+    font-size:1em;
+}
+
+
+.menu-menu li{
+    padding: 6px;
+    border-bottom: solid 1px #000;
+}
+
+
+.main-menu ul{
+    list-style-type: none;
+    padding:0.5em;
+    border: solid 1px #333;
+    background-color: burlywood;
+    width:210px;
+
+    
+}
+
+.menu-button{
+    text-align:right;
+}
+
+.menubar{
+    width:150px;
+    background-color: #fff; 
+    border: solid 1px #000; 
+    position: absolute;
+    right:16px;
+}
+
+
+.search input{
+    border: solid 1px #333;
+    line-height: 2em;
+    margin-left:1em;
+    padding:3px;
+
+}
+
+
+.search{
+    height:36px;
+    padding-top:6px;
+    border: solid 1px #333;
+    background-color: burlywood;
+    width:210px;
+}
+
+.search{
+    padding:6px;
+}
+
+.search-submit{
+    width:35%;
+    padding:3px;
+    border: solid 1px #ccc;
+}
+
+
+.dropdown li{
+        display:block;
+        margin-left:0;
+    }
+
+main{
+    clear:both;
+}
+
+.page-footer{
+    margin-top:3em;
+}
+
+.btn{
+    background-color: beige;
+    padding:8px;
+    color:white;
+    text-decoration:none;
+    text-align: center;
+    display:inline-block;
+    border-radius: 8px;   
+}
+
+
+.btn:hover{
+    background-color: darkorange;
+    color:white;
+}
+
+.programs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*card*/
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+.container{
+        max-width: 1140px;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+
+.layout{
+            display:grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 16px;
+            grid-row-gap:16px;
+        }  
+.flexbox{
+        display:flex;
+        grid-row:1/1;
+        flex-direction:row;
+        flex-wrap: wrap;
+        background-color:aliceblue;
+    }
+
+.card{
+    width: 250px;
+    height: 300px;
+    border: solid 1px #ccc;
+    border-radius:10px;
+    margin:1%;
+    justify-content: space-around;
+}
+
+    
+.empty{
+    visibility: hidden;
+    
+}
+
+.card img{
+    width:250px;
+    height:150px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card-body{
+    padding:10px;
+}
+
+.learn{
+    margin-top:lem;
+}
+
+
+
+@media(min-width: 768px){
+    
+     header{
+        width:25%;
+    }   
+
+     nav{
+        width:65%;
+        margin-top:lem;
+        text-align: right;
+    }   
+
+    .menu-button{
+        display: none;
+    }
+
+    .main-menu ul{
+        display:block;
+        border: none;
+        position:static;
+        width:100%;
+        text-align: right;
+        }
+    
+    .menubar{
+        position: static;
+        width: auto;
+        border:none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-menu li{
+        height:auto;
+        padding-top:5px;
+        padding-bottom:5px;
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-left:0;
+        display: inline-block;
+        width:100px;
+        margin-left:1px;
+        margin-right:0;
+        text-align: center;
+        background-color: floralwhite;
+        }
+    
+    .main-menu ul{
+            float:left;
+        }
+    
+    .menu-nav{
+        position:static;
+        display:flex;
+        right: 16px;
+        flex-direction: row;
+        text-align: right;
+    }
+    
+    .main-menu form{
+            padding:0;
+            float:right;
+        }
+        
+        .main-menu input{
+            width:auto;
+
+        }
+        
+        .main-menu button{
+            width:auto;
+            float: none;
+        }
+    
+    .search{
+    height:100%;
+    padding-top:0;
+    border: none;
+    background-color: transparent;
+    width:100%;
+
+    }
+    
+    .dropdown li{
+        display:block;
+        margin-left:0;
+    }
+    
+    .dropdown ul{
+        text-align: center;
+        border: solid 1px #ccc;
+        padding:6px;
+        background-color: #fff;
+        width:120px;
+        position:absolute;
+        display:none;
+    }
+    
+    .dropdown:hover ul{
+        display: block;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
